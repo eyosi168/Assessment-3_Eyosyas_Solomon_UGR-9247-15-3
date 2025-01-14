@@ -15,5 +15,8 @@ function clicker(event) {
     display.value += value;
   }
 }
+buttons.forEach((button) => {
+    button.addEventListener("click", clicker);
+});
 
 
